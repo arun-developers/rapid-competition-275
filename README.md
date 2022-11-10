@@ -8,5 +8,5 @@ Beauty Bebo is India’s fastest growing online retail store for the day to day 
 -  ✔ Arun Singh
 - 🤝 Ashish Gupta 
 - 💻 Piryanshu Bisht
-- ✌ Somyaranjhan
+- ✌ Soumyaranjan
 - ✨ Param Raj
