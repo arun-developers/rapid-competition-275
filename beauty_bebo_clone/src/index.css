@@ -1,1 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap');
+:root{
+    --primary-bg:#F9F9F9;
+    --main-color:#DD0285;
+    --text-color:#666666;
+}
+*body{
+    line-height: 1.66;
+    color: #666666;
+}

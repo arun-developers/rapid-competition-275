@@ -1,0 +1,19 @@
+.single-container{
+    background: #f2f2f2;
+}
+.single-product{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.product-img{
+    width: 50%;
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+}
+.product-img img{
+    width:98%;
+    object-fit: contain;
+
+}
