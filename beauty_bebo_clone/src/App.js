@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import CheckOut from './components/CheckoutPage';
+import "./App.css";
+
+import CheckOutPage from "./components/CheckOutPage";
 
 function App() {
   return (
     <div>
-      <CheckOut/>
+      <CheckOutPage />
     </div>
   );
 }

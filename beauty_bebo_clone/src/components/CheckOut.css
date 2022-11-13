@@ -1,5 +1,49 @@
 .lable{
     font-weight: 500 !important;
     font-size: 90% !important;
+    margin-left: 2vw;
+    
     color: #666666;
 }
+.star {
+    color: #e02b27;
+    font-size: 1.2rem;
+    margin: 0 0 0 5px;
+}
+.arrow{
+    margin-left: 1vw;
+    margin-bottom: 1vh;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 14px;
+        line-height: 12px;
+        content: '\e618';
+        font-family: 'icons-blank-theme';
+        vertical-align: middle;
+        display: inline-block;
+        font-weight: 400;
+        overflow: hidden;
+        speak: none;
+        text-align: center;
+}
+.line{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3vh;
+}
+.title{
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    color: #333;
+}
+.next{
+margin-top: 7vh;
+color: rgb(17, 12, 12);
+background-color: #666666;
+margin-left: 45vw;
+margin-bottom: 5vh;
+}
+.next:hover {
+    background-color: rgb(255, 0, 174);
+  }
