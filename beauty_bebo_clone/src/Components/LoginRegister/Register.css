@@ -1,0 +1,131 @@
+.register_main_div{
+    width: 48%;
+    /* height: 800px; */
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.signinwithgooglefacebook{
+    width: 70%;
+    /* height: 60px; */
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+}
+.sign_in_with_google_facebook_logo{
+    height: 32px;
+    padding: 0;
+}
+.logo_div{
+    width: 49%;
+    height: 32px;
+    display: flex;
+    /* border: 1px solid darkblue; */
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #3B5998;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.logo_div_sign{
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.create_new_account_heading{
+    color: #444;
+    line-height: 1.25em;
+    font-family: inherit;
+    font-weight: 500 !important;
+    font-size: 130.6% !important;
+    box-sizing: border-box;
+    text-align: center;
+}
+.main_chail_div{
+    border: 1px solid #ddd;
+    height: 600px;
+    width: 95%;
+    margin: auto;
+    background-color: #FAFAFA;
+}
+.inside_main_div_child{
+    /* border: 1px solid red; */
+    width: 95%;
+    /* height: 560px; */
+    margin: auto;
+    margin-top: 20px;
+}
+.personal_information_heading{
+    color: #222;
+    display: block;
+    font-size: 115% !important;
+    margin: 0px;
+    position: relative;
+    font-weight: 400 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.fname_lastname_div{
+    width: 100%;
+    /* height: 100px; */
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: space-between;
+}
+.lable_first_secound_div{
+    width: 48%;
+
+}
+.input-text{
+    height: 35px;
+    font-size: 100%;
+    border: 1px solid #adadad;
+    line-height: 1.66;
+    background-color: #fff;
+    vertical-align: baseline;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 1px;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    margin-top: 15px;
+}
+.type_checkbox{
+    display: flex;
+    margin-top: 20px;
+}
+.password_strength{
+    background-color: #f1f1f1;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 9px;
+    position: relative;
+    z-index: 1;
+    display: block;
+    font-size: 14px;
+    color: #666666;
+    font-style: normal;
+    font-weight: 400;
+}
+.create_an_account{
+    border: none !important;
+    overflow: visible;
+    background: #444;
+    line-height: 35px;
+    white-space: nowrap;
+    font-size: 100% !important;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: relative;
+    padding: 0 20px!important;
+    color: #fff !important;
+    text-decoration: none !important;
+    cursor: pointer;
+    height: 35px;
+    margin-top: 20px;
+    
+}
