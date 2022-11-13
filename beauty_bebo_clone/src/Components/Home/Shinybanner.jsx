@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function ShinyBanner({ src }) {
+export default function ShinyBanner({ src,size }) {
     return <>
-        <BannerDiv>
+        <BannerDiv size={size}>
             <Box >
                 <a href="">
-                    <img src={src} alt="the-banner" />
+                    <img style={{maxWidth:"100%"}} src={src} alt="the-banner" />
                 </a>
             </Box>
         </BannerDiv>
@@ -14,8 +14,8 @@ export default function ShinyBanner({ src }) {
 }
 
 export const BannerDiv = styled.div`
-border:1px solid red;
-    width:90%;
+// border:1px solid red;
+    width:${props=>props.size};
     margin:auto;
     height:auto;
     margin-top:10px;

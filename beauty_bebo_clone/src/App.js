@@ -1,3 +1,4 @@
+// import { Router } from 'react-router-dom';
 import './App.css';
 import Sidebar from './Components/Sidebar_Crousal';
 import ShinyBanner from './Components/Shinybanner';
@@ -10,12 +11,14 @@ import Footer from './Components/Footer';
 import NavBar from './Components/Drop';
 function App() {
   return (
-    <div className="App">
+    <div style={{width:'100%'}} >
       <Navbar/>
       <NavBar/>
       <Footer/>
       
 
+      <AllRoutes/>
+      <Footer/>
     </div>
   );
 }

@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
           <>
         <Box bg="black" className="FooterMainBox" border={{base : '1px solid #dd0285', md : '3px solid #dd0285'}} mt='1%'>
-        <SimpleGrid className="FooterSimpleGrid" columns={[2,2,4]} w={{base : '90%', md : '85%'}} rowGap='40px' mt='20px'>
+        <SimpleGrid  m="auto" className="FooterSimpleGrid" columns={[2,2,4]} w={{base : '90%', md : '85%'}} rowGap='40px' mt='20px'>
             <Box>
                 <Text color={"white"}>CONTACT INFO</Text>
                 <Text color='#dd2895' >- - - - - -</Text>

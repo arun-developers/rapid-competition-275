@@ -1005,7 +1005,7 @@
   "image_link": "https://www.purpicks.com/wp-content/uploads/2018/06/w3llpeople-Realist-Invisible-Setting-Powder.jpg",
   "product_link": "https://www.purpicks.com/product/w3llpeople-realist-invisible-setting-powder/",
   "website_link": "https://purpicks.com/",
-  "description": "<span style=\"font-weight: 400;\">Keep it real with a polished, soft-focus look using this superfine, loose mineral powder. The healing properties of organic aloe help soothe and calm stressed out skin. Instantly minimize pores, soften imperfections, and creates a matte finish with superfine powder. Use by itself for an air-brushed look, or to set foundation for ultra-long wear.</span><span style=\"font-weight: 400;\">* Set makeup or by itself for matte air-brushed effect</span><span style=\"font-weight: 400;\">* Absorbs excess oil while softening fine lines</span><span style=\"font-weight: 400;\">* Organic aloe creates radiant, rejuvenated skin</span><span style=\"font-weight: 400;\">* Hypoallergenic, Chemical Free, Cruelty Free &amp; Noncomedogenic </span><span style=\"font-weight: 400;\">* EWG Verified for non-toxic health and safety</span><span style=\"font-weight: 400;\">* Free From: Parabens, Gluten, GMO, Phthalates, Sulfates, Fragrance, Pheonoxyethanol, Dimethicone, PEG, Propylene Glycol, Butylene Glycol, Lead, Mineral Oil, Talc</span>",
+  "description": "Keep it real with a polished, soft-focus look using this superfine, loose mineral powder. The healing properties of organic aloe help soothe and calm stressed out skin. Instantly minimize pores, soften imperfections, and creates a matte finish with superfine powder. Use by itself for an air-brushed look, or to set foundation for ultra-long wear. Set makeup or by itself for matte air-brushed effect Absorbs excess oil while softening fine lines* Organic aloe creates radiant, rejuvenated skin Hypoallergenic, Chemical Free, Cruelty Free &amp; Noncomedogenic * EWG Verified for non-toxic health and safety Free From: Parabens, Gluten, GMO, Phthalates, Sulfates, Fragrance, Pheonoxyethanol, Dimethicone, PEG, Propylene Glycol, Butylene Glycol, Lead, Mineral Oil, Talc",
   "rating": null,
   "category": "powder",
   "product_type": "foundation",
@@ -42177,5 +42177,191 @@
   }
   ]
   }
+  ],
+  "Makeup":[
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/7/4/745c0238903487002395_1.jpg",
+      "title":"Miss Claire M24 - Fan Brush",
+      "pre_prce":495,
+      "price":446
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/u/n/untitled-1_10_4.jpg",
+      "title":"Miss Claire Make Up Palette 9920 (Make Up Kit)",
+      "pre_prce":875,
+      "price":796
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/d/2/d28bf778903487024816_1.jpg",
+      "title":"Miss Claire Blusher Kit - 3660-B-3",
+      "pre_prce":0,
+      "price":446
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/3/7/3732f778903487000209_1.jpg",
+      "title":"Miss Claire Eyeshadow Kit - 3716-11-3",
+      "pre_prce":0,
+      "price":395
+    }
   ]
+  ,
+  "Skin":[
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/c/9/c9222298903487037205_1.jpg",
+      "title":"Miss Claire Prestige Anti-Dust Daily Massage Cleansing Cream",
+      "pre_prce":750,
+      "price":675
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/e/f/ef93c248903380157734__1_.jpg",
+      "title":"Faces Canada Hydro Cleanser",
+      "pre_prce":0,
+      "price":479
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/5/1/51e_koru3bs._sl1500_.jpg",
+      "title":"O3+ Blueberry Dtan Creme Mask For De Tan & Moisturising Glow",
+      "pre_prce":1550,
+      "price":1442
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/f/9/f93d9738903487037762_1.jpg",
+      "title":"Miss Claire Pre. Anti Pollution Sun Cream - SPF 50",
+      "pre_prce":675,
+      "price":608
+    }
+  ]
+  ,
+  "Hair_Care":[
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/f/6/f658864trese00000061_1.jpg",
+      "title":"Tresemme Pro Pure Damage Recovery Shampoo & Mask Combo",
+      "pre_prce":1200,
+      "price":1116
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/9/f/9f5a0dd8901248154192_1.jpg",
+      "title":"Boroplus Aloe Vera Gel With Green Tea",
+      "pre_prce":0,
+      "price":360
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/9/3/93d343en_3401344957253-01.jpg",
+      "title":"Bioderma Node DS+ Shampooing Anti-Dandruff Intense Shampoo",
+      "pre_prce":1607,
+      "price":1527
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/e/9/e9c4ccctrese00000051_1.jpg",
+      "title":"Tresemme Propure Moisture Boost - Shampoo + Mask + Serum Combo",
+      "pre_prce":1600,
+      "price":1488
+    }
+  ],
+  "M&B":[
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/0/4/0461c248903380005356a_1.jpg",
+      "title":"Faces Canada Bath N Body Milk & Honey Body Scrub",
+      "pre_prce":0,
+      "price":399
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/9/3/93edc248903380005349a_1.jpg",
+      "title":"Faces Canada Bath N Body Milk & Honey Body Cream",
+      "pre_prce":0,
+      "price":399
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/d/3/d3211068058664152346_1.jpg",
+      "title":"Chicco Baby Moments Mild Bodywash Refresh",
+      "pre_prce":479,
+      "price":431
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/9/7/974e43ebiode00000007-01.jpg",
+      "title":"Bioderma Atoderm Huile De Douche 24h Hydration Ultra-Nourishing Anti-Irriatation",
+      "pre_prce":1365,
+      "price":1256
+    }
+  ],
+  "PersonalCare":[
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/b/e/be80db28058664152490_1.jpg",
+      "title":"Chicco Baby Moments Rich Cream",
+      "pre_prce":0,
+      "price":349
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/0/8/088a1068058664152308_1.jpg",
+      "title":"Chicco Baby Moments Mild Bodywash Protect",
+      "pre_prce":479,
+      "price":441
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/4/4/443d5b28058664152391-1.jpg",
+      "title":"Chicco Body Lotion",
+      "pre_prce":499,
+      "price":470
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/d/c/dc91b1e8058664152254_1.jpg",
+      "title":"Chicco Gentle Body Wash And Shampoo - 500ml",
+      "pre_prce":499,
+      "price":470
+    }
+  ],
+  "Eye":[
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/3/7/3732f778903487000209_1.jpg",
+      "title":"Miss Claire Eyeshadow Kit - 3716-11-3",
+      "pre_prce":0,
+      "price":354
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/u/n/untitled-1_10.jpg",
+      "title":"Miss Claire Make Up Palette 9943 (Make Up Kit)",
+      "pre_prce":695,
+      "price":626
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/8/9/8903487030787.jpg",
+      "title":"Miss Claire Make Up Palette 9927-1 (Make Up Kit)",
+      "pre_prce":895,
+      "price":823
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/u/n/untitled-1_9_3.jpg",
+      "title":"Miss Claire Make Up Palette 9928 (Make Up Kit)",
+      "pre_prce":1120,
+      "price":1053
+    }
+  ],
+  "Fragrance":[
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/u/n/untitled-1_6.jpg",
+      "title":"KamaSutra Thrill Deodorant",
+      "pre_prce":440,
+      "price":356
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/u/n/untitled-1_5.jpg",
+      "title":"KamaSutra Blaze Deodorant - Pack Of 2",
+      "pre_prce":440,
+      "price":356
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/u/n/untitled-1_4_3.jpg",
+      "title":"KamaSutra Urge Power Series Perfume Spray- Pack Of 2",
+      "pre_prce":440,
+      "price":336
+    },
+    {
+      "image":"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/u/n/untitled-1_4_1.jpg",
+      "title":"KamaSutra Woman Sparkle Perfume Body Spray",
+      "pre_prce":0,
+      "price":358
+    }
+  ]
+  
 }
+
