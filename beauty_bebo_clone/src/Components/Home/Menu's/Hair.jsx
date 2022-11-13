@@ -36,7 +36,7 @@ export default function HairMenu({ children,data }) {
       >
         {children}
       </MenuButton>
-      <MenuList style={{ position: 'relative', left: "160px", bottom: "40px", display: 'flex', justifyContent: 'space-between' }} onMouseEnter={onOpen} onMouseLeave={onClose}
+      <MenuList style={{ position: 'relative', left: "180px", bottom: "40px", display: 'flex', justifyContent: 'space-between' }} onMouseEnter={onOpen} onMouseLeave={onClose}
         w={["0", "0", "0", "0", "85%"]}
       >
         <MenuItem style={{ width: "20%" ,display:'flex',flexDirection:'column',gap:"7px"}}>
