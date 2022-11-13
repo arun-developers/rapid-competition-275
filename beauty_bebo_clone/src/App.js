@@ -12,11 +12,7 @@ function App() {
     <div style={{width:'100%'}} >
       <Navbar/>
       <AllRoutes/>
-      {/* <Home /> */}
       <Footer/>
-      {/* <ProductPage/>
-      <SingleProduct /> */}
-
     </div>
   );
 }
