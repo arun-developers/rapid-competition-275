@@ -4,7 +4,7 @@ import {Route,Routes} from 'react-router-dom'
 import Login from '../Components/LoginRegister/LoginRegister/Login';
 import { ProductPage } from '../Components/ProductDisplayPage/ProductDisplayPage/ProductPage';
 import { SingleProduct } from '../Components/SingleProduct/SingleProduct/SingleProduct';
-import Register from '../Components/LoginRegister/Register';
+import Register from "../Components/LoginRegister/Register"
 import ForgetPage from '../Components/LoginRegister/ForgetPage';
 
 function AllRoutes(){

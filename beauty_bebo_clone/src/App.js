@@ -12,7 +12,7 @@ function App() {
   return (
     <div style={{width:'100%'}} >
       <Navbar/>
-      <Drop />
+      {/* <Drop /> */}
       <AllRoutes/>
       <Footer/>
     </div>
