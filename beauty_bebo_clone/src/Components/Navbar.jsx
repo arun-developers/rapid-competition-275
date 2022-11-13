@@ -5,6 +5,8 @@ import {Link} from 'react-router-dom'
 import { useContext } from 'react'
 import imglogo from "../Assets/logo.jpg"
 import { useState,useEffect } from 'react'
+import "./Navbar.css"
+// import "./App.css"
 // import { CartContext } from '../Context/CartContext'
 export default function Navbar ( ){
     // const {TotalCartPrice,SetTotalCartPrice,CartData} = useContext();
@@ -30,7 +32,7 @@ export default function Navbar ( ){
         <Box bg='white'>
             <Flex className='MiddleNavFlex' w={{base : '100%', md : '90%', lg : '90%'}} p='10px' bg='white'> 
            <Box  w={{base : '20%', md : '20%', lg : '20%'}}>
-                <Image ml="20px" w={{base : '100px', md : '100px' , lg : '120px'}} h={{base : '100px', md : '100px' , lg : '80px'}}  src={imglogo}/>
+               <a href="#"> <Image ml="20px" w={{base : '150px', md : '100px' , lg : '150px'}} h={{base : '100px', md : '100px' , lg : '80px'}}  src="https://www.beautybebo.com/pub/media/logo/default/beautybebo_1.png"/></a>
             </Box>
           
             <Flex w={{base : '50%', md : '50%' , lg : '55%'}} >
@@ -244,7 +246,7 @@ export default function Navbar ( ){
                     <i class="fa-solid fa-user"></i>
                     </button>
                 </div>
-                <div id="text">My Account</div>
+                <div className='text'><a href='#'>My Account</a></div>
                 </div>
                 </div>
                 </Box>
