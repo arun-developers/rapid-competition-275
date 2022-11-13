@@ -5,6 +5,7 @@ import googleLogo from "../assets/Google__G__Logo.svg.png"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from "react";
+import { Link, NavLink } from 'react-router-dom';
 
 const Login = () => {
     // const history = useNavigate();
@@ -137,7 +138,7 @@ const Login = () => {
                                         <span>Sign In</span>
                                     </button>
                                 </div>
-                                <span className='forget_password'>Forgot Your Password?</span>
+                               <Link to="/forgetpassword"> <span className='forget_password'>Forgot Your Password?</span></Link>
                             </div>
                         </div>
                     </div>
@@ -150,7 +151,8 @@ const Login = () => {
                                 <hr style={{ width: "96%", marginLeft: "0px" }} />
                                 <p className='paragraph_text'>Creating an account has many benefits: check out faster, keep more than one address, track orders and more.</p>
                                 <div>
-                                    <button style={{ marginTop: "10px" }} className='login'>Create an Account</button>
+                                    <Link to="/register"><button style={{ marginTop: "10px" }} className='login'>Create an Account</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Register = () => {
     const [passwordInput, setPasswordInput] = useState("No Password");
+    const [showText, setShowText] = useState("");
 
     let passwordDiv;
 
@@ -64,6 +65,7 @@ const Register = () => {
                     setPasswordInput("Weak Password");
                 }
             }
+            setShowText("Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored.")
         }
     }
     const addData = (e) => {
@@ -96,7 +98,7 @@ const Register = () => {
             toast.error('Password Field is Requred!', {
                 position: "top-center",
             });
-        } else if (password.length < 5) {
+        } else if (password.length < 8) {
             toast.error('Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored.!', {
                 position: "top-center",
             });
@@ -112,7 +114,10 @@ const Register = () => {
             });
         }
         else {
-            console.log("data added succesfully");
+            // console.log("data added succesfully");
+            toast.success('User Details Added Successfully', {
+                position: "top-center",
+            });
             // history("/login")
             localStorage.setItem("userInputData", JSON.stringify([...data, inpval]));
 
@@ -196,7 +201,9 @@ const Register = () => {
                                 <span>Password *</span>
                             </label>
                             <div className="control">
+
                                 <input onChange={getdata} name='password' type="password" className="input-text" title="Password" />
+                                <p className='show_text'>{showText}</p>
                             </div>
                         </div>
 

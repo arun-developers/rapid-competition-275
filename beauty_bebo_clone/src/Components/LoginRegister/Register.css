@@ -77,12 +77,11 @@
 }
 .lable_first_secound_div{
     width: 48%;
-
 }
 .input-text{
     height: 35px;
     font-size: 100%;
-    border: 1px solid #adadad;
+    border: 1px solid #ADADAD;
     line-height: 1.66;
     background-color: #fff;
     vertical-align: baseline;
@@ -99,7 +98,7 @@
     margin-top: 20px;
 }
 .password_strength{
-    background-color: #f1f1f1;
+    background-color: #F1F1F1;
     height: 32px;
     line-height: 32px;
     padding: 0 9px;
@@ -127,5 +126,16 @@
     cursor: pointer;
     height: 35px;
     margin-top: 20px;
-    
 }
+.show_text{
+    color: #E02B27;
+    font-size: 14px;
+    display: block;
+    letter-spacing: normal;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+
