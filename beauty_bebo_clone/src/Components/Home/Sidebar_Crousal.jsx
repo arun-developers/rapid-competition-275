@@ -10,7 +10,7 @@ import SkinMenu from './Menu\'s/Skin';
 import HairMenu from './Menu\'s/Hair';
 import PersonalCareMenu from './Menu\'s/PersonalCare';
 import M_n_BCareMenu from './Menu\'s/M&B';
-
+import {NavLink} from 'react-router-dom';
 // for customizing Menu for different-different categories menu will accept the following things;
 /* 
 1.Number of columns for text;
@@ -205,6 +205,7 @@ let menu5 = {
 }
 
 export default function Sidebar() {
+    let makeup = "Makeup"
     return <>
         <Wrapper>
             <SidebarBox style={{ padding: "0px 0px" }}>
@@ -213,51 +214,64 @@ export default function Sidebar() {
                 </div>
                 <div style={{ display: 'flex', gap: "0.5vw", flexDirection: 'column', paddingTop: '15px' }}>
                     <div >
-                        <Link style={{ paddingLeft: "15px" }} href="">
+                        <NavLink to="/ProductPage/MakeUp" >
+                        <Link style={{ paddingLeft: "15px" }}>
                             <span style={{ display: 'flex', alignItems: 'center', gap: "10px", font: 'icon' }}><img width={'23px'} src="https://www.beautybebo.com/pub/media/wysiwyg/menu-icons/makeup-small.png" alt="image-icon" />{"   "}Makeup</span>
                             <span style={{ marginLeft: "1vw", width: "20px", fontSize: "10px" }}><AiOutlineRight /></span>
                             <MakeupMenu data = {menu1}>  </MakeupMenu>
                         </Link>
+                        </NavLink>
                     </div>
                     <div >
+                    <NavLink to={`/ProductPage/Skin`}>
                         <Link style={{ paddingLeft: "15px" }} href="">
                             <span style={{ display: 'flex', alignItems: 'center', gap: "10px", font: 'icon' }}><img width={'23px'} src="https://www.beautybebo.com/pub/media/wysiwyg/menu-icons/skin-small.png" alt="image-icon" />{"   "}Skin</span>
                             <span style={{ marginLeft: "1vw", width: "20px", fontSize: "10px" }}><AiOutlineRight /></span>
                             <SkinMenu data = {menu2}> </SkinMenu>
                         </Link>
+                        </NavLink>
                     </div>
                     <div >
+                      <NavLink to={`/ProductPage/Hair`}>
                         <Link style={{ paddingLeft: "15px" }} href="">
                             <span style={{ display: 'flex', alignItems: 'center', gap: "10px", font: 'icon' }}><img width={'23px'} src="	https://www.beautybebo.com/pub/media/wysiwyg/menu-icons/hair-small.png" alt="image-icon" />{"   "}Hair</span>
                             <span style={{ marginLeft: "1vw", width: "20px", fontSize: "10px" }}><AiOutlineRight /></span>
                             <HairMenu data = {menu3}> </HairMenu>
                         </Link>
+                        </NavLink>  
                     </div>
                     <div >
+                    <NavLink to={`/ProductPage/PersonalCare`}>
                         <Link style={{ paddingLeft: "15px" }} href="">
                             <span style={{ display: 'flex', alignItems: 'center', gap: "10px", font: 'icon' }}><img width={'23px'} src="	https://www.beautybebo.com/pub/media/wysiwyg/menu-icons/personal-care-small.png" alt="image-icon" />{"   "}Personal Care</span>
                             <span style={{ marginLeft: "1vw", width: "20px", fontSize: "10px" }}><AiOutlineRight /></span>
                             <PersonalCareMenu data = {menu4}> </PersonalCareMenu>
                         </Link>
+                        </NavLink>
                     </div>
                     <div >
+                    <NavLink to={`/ProductPage/Mom&BabyCare`}>
                         <Link style={{ paddingLeft: "15px" }} href="">
                             <span style={{ display: 'flex', alignItems: 'center', gap: "10px", font: 'icon' }}><img width={'23px'} src="https://www.beautybebo.com/pub/media/wysiwyg/menu-icons/mom-baby-care-small.png" alt="image-icon" />{"   "}M&C</span>
                             <span style={{ marginLeft: "1vw", width: "20px", fontSize: "10px" }}><AiOutlineRight /></span>
                             <M_n_BCareMenu data = {menu5} col1={'text'} col2={'text'} col3={"text"} col4={'text'} col5={'text'}> </M_n_BCareMenu>
                         </Link>
+                        </NavLink> 
                     </div>
-                    <div >
+                    <div ><NavLink to={`/ProductPage/Fragrance`}>
                         <Link style={{ paddingLeft: "15px" }} href="">
                             <span style={{ display: 'flex', alignItems: 'center', gap: "10px", font: 'icon' }}><img width={'23px'} src="https://www.beautybebo.com/pub/media/fragrance.png" alt="image-icon" />{"   "}Fragrance</span>
                             <span style={{ marginLeft: "1vw", width: "20px", fontSize: "10px" }}></span>
                         </Link>
+                        </NavLink>
                     </div>
                     <div >
+                    <NavLink to={`/ProductPage/Ayurveda`}>
                         <Link style={{ paddingLeft: "15px" }} href="">
                             <span style={{ display: 'flex', alignItems: 'center', gap: "10px", font: 'icon' }}><img width={'23px'} src="https://www.beautybebo.com/pub/media/ayurveda.png" alt="image-icon" />{"   "}Ayurveda</span>
                             <span style={{ marginLeft: "1vw", width: "20px", fontSize: "10px" }}></span>
                         </Link>
+                        </NavLink>
                     </div>
                 </div>
 

@@ -1,10 +1,11 @@
 import {Box, Button, Flex, Image, Input, Text, Tooltip} from '@chakra-ui/react'
 import {FaSearch} from 'react-icons/fa'
 import {BsCartCheck} from 'react-icons/bs'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import { useContext } from 'react'
-import imglogo from "../Assets/logo.jpg"
+// import imglogo from "../Assets/logo.jpg"
 import { useState,useEffect } from 'react'
+import { NavLink } from 'react-router-dom'
 // import { CartContext } from '../Context/CartContext'
 export default function Navbar ( ){
     // const {TotalCartPrice,SetTotalCartPrice,CartData} = useContext();
@@ -23,14 +24,15 @@ export default function Navbar ( ){
         <>
        {
         isDesktop? <div className='NavMainDiv'>
+        <NavLink to="/">
         <Box maxW='100%'  className='TopNav'>
             <Image boxSize='100%' m='auto' src='https://www.beautybebo.com/pub/media/ads/ad-desktop.jpg'/>
         </Box>
-
+        </NavLink>
         <Box bg='white'>
             <Flex className='MiddleNavFlex' w={{base : '100%', md : '90%', lg : '90%'}} p='10px' bg='white'> 
            <Box  w={{base : '20%', md : '20%', lg : '20%'}}>
-                <Image ml="20px" w={{base : '100px', md : '100px' , lg : '120px'}} h={{base : '100px', md : '100px' , lg : '80px'}}  src={imglogo}/>
+                <Image ml="20px" w={{base : '100px', md : '100px' , lg : '120px'}} h={{base : '100px', md : '100px' , lg : '80px'}}  src="https://www.beautybebo.com/pub/media/logo/default/beautybebo_1.png"/>
             </Box>
           
             <Flex w={{base : '50%', md : '50%' , lg : '55%'}} >
@@ -244,7 +246,9 @@ export default function Navbar ( ){
                     <i class="fa-solid fa-user"></i>
                     </button>
                 </div>
+                <NavLink to="/login">
                 <div id="text">My Account</div>
+                </NavLink>
                 </div>
                 </div>
                 </Box>

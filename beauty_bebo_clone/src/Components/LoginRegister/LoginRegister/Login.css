@@ -1,0 +1,135 @@
+.mainlogindiv{
+    /* border: 1px solid black; */
+    /* height: 700px; */
+    display: flex;
+}
+.main_login_inside_div{
+    width: 96%;
+    /* border: 1px solid purple; */
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.mainloginchildsdiv{
+    /* border: 1px solid red; */
+    height: 600px;
+    width: 49%;
+    /* margin-top: 20px; */
+}
+.logincredentialdiv{
+    border: 1px solid #ddd;
+    height: 400px;
+    width: 95%;
+    padding: 20px;
+    margin: auto;
+}
+.customerloginheading{
+    color: #444;
+    line-height: 1.25em;
+    font-family: inherit;
+    font-weight: 500 !important;
+    font-size: 130.6% !important;
+    box-sizing: border-box;
+    margin-left: 19px;
+}
+.registerloginnewcustomerheading{
+    color: #222;
+    display: block;
+    font-size: 115% !important;
+    margin: 0px;
+    position: relative;
+    font-weight: 400 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.signinwithgooglefacebook{
+    width: 70%;
+    height: 60px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+}
+.sign_in_with_google_facebook_logo{
+    height: 32px;
+    padding: 0;
+}
+.logo_div{
+    width: 49%;
+    height: 32px;
+    display: flex;
+    /* border: 1px solid darkblue; */
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #3B5998;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.logo_div_sign{
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.paragraph_text{
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.66;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.input-text{
+    height: 35px;
+    font-size: 100%;
+    border: 1px solid #adadad;
+    line-height: 1.66;
+    background-color: #fff;
+    padding: 0 9px;
+    vertical-align: baseline;
+    width: 96%;
+    box-sizing: border-box;
+    border-radius: 1px;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    margin-top: 15px;
+    
+}
+.login{
+    border: none !important;
+    overflow: visible;
+    background: #444;
+    line-height: 35px;
+    white-space: nowrap;
+    font-size: 100% !important;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: relative;
+    padding: 0 20px!important;
+    color: #fff !important;
+    text-decoration: none !important;
+    cursor: pointer;
+    height: 35px;
+    margin-top: 20px;
+    
+}
+.forget_password{
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    color: #222222;
+    margin-top: 10px!important;
+    display: inline-block;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.login:hover{
+    background-color: #DD0285;
+}
+.forget_password:hover{
+    color: #DD0285;
+}

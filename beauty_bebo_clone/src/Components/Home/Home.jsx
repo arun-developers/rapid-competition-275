@@ -5,6 +5,7 @@ import Hotdeals from './Hotdeals';
 import ShinyBanner_II from './Shinybanner_II';
 import Categories from './Categories';
 import AboutText from './AboutText';
+import Footer from '../Footer';
 export default function Home() {
     return <>
       <Sidebar/>
