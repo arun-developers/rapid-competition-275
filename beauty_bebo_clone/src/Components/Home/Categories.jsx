@@ -89,7 +89,7 @@ const initial = {
 }
 
 function FetchData(val) {
-    return axios.get(`http://localhost:8080/${val}`);
+    return axios.get(`https://masai-task-manager.onrender.com/${val}`);
 }
 export default function Categories({ types }) {
 
@@ -116,7 +116,6 @@ export default function Categories({ types }) {
             types === true && <Category>
                 <button onClick={() => getData("Makeup")}>
                     <CategoryBox>
-                        {/* <Spot/> */}
                         <IconDiv>
                             <Image src="https://www.beautybebo.com/pub/media/catalog/category/makeup_1.png" alt="icon-image" />
                         </IconDiv>
